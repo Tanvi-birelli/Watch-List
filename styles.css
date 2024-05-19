@@ -1,0 +1,63 @@
+body{
+    background-color: #b180b6;
+    margin: 0;
+    font-size: 16px;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+.watch-list-hdg{
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+#name-label{
+    font-size: 1.5rem;
+}
+#name{
+    margin-top: 1rem;
+    height: 10px;
+    width:80%;
+    padding: 10px 0;
+    background-color: #f9e7f2;
+    border: solid 1px #f9e7f2;
+    border-radius: 5px;
+}
+#submit-btn{
+    background-color: #b180b6;
+    padding: 9px;
+    border: solid 1px #b180b6;
+    border-radius: 5px;
+    width: 60px;
+}
+.container{
+    border-radius: 30px;
+    width: 25rem;
+    min-width: 300px;
+    max-width: 70%;
+    background-color:#e9b8e0;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+}
+#submit-btn:hover{
+    background-color: #b180b6a2;
+}
+#name:hover{
+    border-color: #c98fb3d2;
+}
+#watch-list{
+    padding: 0;
+    list-style: none;
+}
+.list-item{
+    font-size: 1.2rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #f9e7f26e;
+}
+.small{
+    font-size: small;
+}
